@@ -20,7 +20,7 @@ export const useToDoStore = create<ToDoStore>((set,get) => ({
         title: 'Default task',
         createdAt: Date.now(),
     }],
-    createTask: (title: string) => {
+    createTask: (title: string)  => {
         const {tasks} = get();
         const newTask = {
             id: random.int(190, 999).toString(),

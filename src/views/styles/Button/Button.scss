@@ -1,0 +1,37 @@
+.button{
+    min-width: 120px;
+    height: 52px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background-color: #1E6F9F;
+    border: none;
+    transition: .2s ease-in;
+    z-index: 2;
+    transform: translateY(-26px);
+
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    &.button_active {
+        background-color:#262626;
+        border: none;
+        transition: .2s ease-in;
+    }
+
+    & .button__text{
+        margin: 0;
+        padding: 0;
+        margin-right: 8px;
+        font-family: 'Inter', "Arial ", sans-serif;
+        font-size: 14px;
+        line-height: 140%;
+        color: white;
+        z-index:10;
+    }
+}

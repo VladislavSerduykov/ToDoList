@@ -1,22 +1,13 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 
 import { useToDoStore } from "../../data/stores/useToDoStore";
 
+import { Main } from "../components/Main";
+
 export const App: React.FC = () => {
-    const [
-        tasks,
-        createTask,
-        updateTask,
-        removeTask,
-    ] = useToDoStore(state => [
-        state.tasks,
-        state.createTask,
-        state.updateTask,
-        state.removeTask,
-    ])
 
 
     return (
-        <article>123123</article>
+        <Main/>
     )
 }
