@@ -5,7 +5,7 @@ import logo from "../../assets/logo.svg";
 export const Logo: React.FC = () => {
   return (
     <a href="https://github.com/VladislavSerduykov/ToDoList" className="logo">
-      <img src={logo} alt="logo" />
+      <img src={logo} alt="Логотип" />
     </a>
   );
 };

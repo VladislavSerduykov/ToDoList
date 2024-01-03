@@ -11,9 +11,9 @@ export const Main: React.FC = () => {
     state.removeTask,
   ]);
   return (
-    <>
+    <section className="main">
       <Header />
       <Content />
-    </>
+    </section>
   );
 };
