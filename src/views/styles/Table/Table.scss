@@ -1,0 +1,20 @@
+.table{
+    margin: 0;
+    padding: 6px;
+    width: 757px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #226235;
+    border-radius: 7px;
+
+    .table__cell {
+        padding: 0;
+        margin: 0;
+        color: var(--color-font-secondary);
+        font-family: var(--font-family-base);
+        font-size: 16px;
+        line-height: 140%;
+    }
+}
+
